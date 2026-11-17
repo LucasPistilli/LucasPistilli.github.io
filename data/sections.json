@@ -1,0 +1,516 @@
+{
+  "_comment": "Textos das seções da versão 2 (estrutura inspirada na referência). Nome, sobre, stack, projetos e contato continuam vindo de content.json e projects.json. Tudo aqui é rascunho editável.",
+  "nav": [
+    {
+      "label": "Processo",
+      "target": "processo"
+    },
+    {
+      "label": "Stack",
+      "target": "stack"
+    },
+    {
+      "label": "Sobre",
+      "target": "sobre"
+    },
+    {
+      "label": "Projetos",
+      "target": "projetos"
+    },
+    {
+      "label": "Contato",
+      "target": "contato"
+    }
+  ],
+  "navCta": "Fale comigo",
+  "loader": [
+    "comprimindo a matéria",
+    "curvando a luz",
+    "compilando o horizonte",
+    "quase lá"
+  ],
+  "hero": {
+    "eyebrow": "PORTFÓLIO · DESENVOLVEDOR FULL-STACK",
+    "primary": "Ver projetos",
+    "secondary": "Ver como eu trabalho",
+    "meta": [
+      "TypeScript · Node.js · Python",
+      "Código aberto no GitHub"
+    ],
+    "hint": "Esse buraco negro é vivo. Role a página.",
+    "chips": [
+      {
+        "tag": "BUILD",
+        "title": "build passou",
+        "text": "0 erros · 0 avisos"
+      },
+      {
+        "tag": "COMMIT",
+        "title": "feat: novo horizonte",
+        "text": "main · agora"
+      }
+    ],
+    "marquee": [
+      "Front-end",
+      "Back-end",
+      "Banco de dados",
+      "APIs",
+      "Interfaces vivas"
+    ]
+  },
+  "process": {
+    "eyebrow": "COMO EU TRABALHO",
+    "ring": "ENTENDER ● MODELAR ● CONSTRUIR ● ENTREGAR ● ",
+    "steps": [
+      {
+        "key": "ENTENDER",
+        "title": "Entender",
+        "em": "antes de codar.",
+        "text": "Leio o problema, faço perguntas e desenho o fluxo no papel. Código bom começa com a pergunta certa.",
+        "pill": "PERGUNTAS ANTES DE COMMITS",
+        "screen": [
+          "?",
+          "qual é o",
+          "problema?"
+        ]
+      },
+      {
+        "key": "MODELAR",
+        "title": "Dados primeiro,",
+        "em": "telas depois.",
+        "text": "Modelo o banco e os contratos da API antes da interface. No Iton, Prisma e PostgreSQL deram forma às despesas da família.",
+        "pill": "SCHEMA · API · CONTRATOS",
+        "screen": [
+          "model Despesa {",
+          "  valor Decimal",
+          "}"
+        ]
+      },
+      {
+        "key": "CONSTRUIR",
+        "title": "Construir em",
+        "em": "ciclos curtos.",
+        "text": "Entrego em pedaços pequenos que já funcionam: commit, testo, ajusto, repito. Nada de big bang.",
+        "pill": "TYPESCRIPT · NODE.JS · PYTHON",
+        "screen": [
+          "$ npm run dev",
+          "✓ pronto",
+          "em 0.8s"
+        ]
+      },
+      {
+        "key": "ENTREGAR",
+        "title": "Entregar e",
+        "em": "lapidar.",
+        "text": "Publico, observo como é usado e volto para melhorar. Projeto pronto é projeto em órbita.",
+        "pill": "DEPLOY · FEEDBACK · ITERAÇÃO",
+        "screen": [
+          "deploy",
+          "200 OK",
+          "✓"
+        ]
+      }
+    ]
+  },
+  "bento": {
+    "eyebrow": "STACK",
+    "title": "Seis pequenas máquinas",
+    "em": "que nunca dormem.",
+    "lead": "Cada ferramenta faz um trabalho. Juntas, viram produto.",
+    "tiles": {
+      "back": {
+        "n": "01",
+        "tag": "BACK-END",
+        "title": "Rotas que respondem.",
+        "text": "APIs em Node.js e Python, do pedido ao banco.",
+        "routes": [
+          [
+            "GET",
+            "/despesas",
+            "200"
+          ],
+          [
+            "POST",
+            "/despesas",
+            "201"
+          ],
+          [
+            "GET",
+            "/familias/:id",
+            "200"
+          ],
+          [
+            "POST",
+            "/pedidos",
+            "201"
+          ],
+          [
+            "GET",
+            "/produtos",
+            "200"
+          ],
+          [
+            "DELETE",
+            "/carrinho/:id",
+            "204"
+          ]
+        ]
+      },
+      "front": {
+        "n": "02",
+        "tag": "FRONT-END",
+        "title": "Interfaces que se desenham.",
+        "text": "HTML, CSS e JavaScript na mão, como este site."
+      },
+      "db": {
+        "n": "03",
+        "tag": "DADOS",
+        "title": "PostgreSQL + Prisma",
+        "text": "Esquema tipado do banco à tela."
+      },
+      "ts": {
+        "n": "04",
+        "tag": "TYPESCRIPT",
+        "title": "Erro pego antes de rodar.",
+        "text": "Tipos como rede de segurança."
+      },
+      "py": {
+        "n": "05",
+        "tag": "PYTHON",
+        "title": "O motor do Mercante.",
+        "text": "Um backend de marketplace quase 100% em Python."
+      },
+      "git": {
+        "n": "06",
+        "tag": "GIT & GITHUB",
+        "title": "Todo passo tem história.",
+        "text": "Commits pequenos, código aberto no GitHub."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "SOBRE",
+    "title": "Conheça o Lucas.",
+    "em": "Curioso por natureza.",
+    "chapters": [
+      {
+        "label": "CAPÍTULO 01",
+        "title": "A primeira linha.",
+        "text": "Curiosidade virou código.",
+        "chip": "console.log(\"olá\")",
+        "art": "terminal"
+      },
+      {
+        "label": "CAPÍTULO 02",
+        "title": "Mercante.",
+        "text": "Um backend de marketplace em Python.",
+        "chip": "200 OK · /produtos",
+        "art": "mercante"
+      },
+      {
+        "label": "CAPÍTULO 03",
+        "title": "Iton.",
+        "text": "Um sistema completo, do banco à interface.",
+        "chip": "TypeScript · Prisma",
+        "art": "iton"
+      },
+      {
+        "label": "CAPÍTULO 04",
+        "title": "O próximo desafio.",
+        "text": "Ainda não tem nome. Pode ser o seu.",
+        "chip": "procurando…",
+        "art": "blackhole"
+      }
+    ],
+    "note": "ILUSTRAÇÕES DOS CAPÍTULOS 1 E 4 GERADAS COM HIGGSFIELD · AS CAPAS SÃO DOS PROJETOS REAIS",
+    "swipe": "ARRASTE"
+  },
+  "chat": {
+    "eyebrow": "PERGUNTE AO LUCAS",
+    "title": "Pergunte qualquer coisa.",
+    "em": "Ele leu o próprio currículo.",
+    "lead": "Respostas curtas, tiradas do que está nesta página. Sem enrolação e sem \"depende\".",
+    "label": "PERGUNTAS PRONTAS",
+    "qa": [
+      {
+        "q": "Quais tecnologias você usa?",
+        "a": "TypeScript, Node.js e Python no back-end, PostgreSQL com Prisma nos dados e HTML, CSS e JavaScript na interface. Git e GitHub em tudo."
+      },
+      {
+        "q": "Me conta do Iton.",
+        "a": "É um sistema completo de controle de despesas familiar, do banco de dados à interface. Feito em TypeScript, Node.js, PostgreSQL e Prisma."
+      },
+      {
+        "q": "E o Mercante?",
+        "a": "O backend de um pequeno marketplace, escrito quase 100% em Python: produtos, estoque, carrinho e pedidos."
+      },
+      {
+        "q": "Está aberto a oportunidades?",
+        "a": "Sim. Vaga, projeto ou ideia em que eu possa aprender e contribuir: me manda uma mensagem lá no final da página."
+      }
+    ],
+    "placeholder": "Escolha uma pergunta acima…"
+  },
+  "projects": {
+    "eyebrow": "PROJETOS",
+    "title": "O que já entrou",
+    "em": "em órbita.",
+    "lead": "Escolha um projeto. O buraco negro mostra a capa; o cartão conta o resto.",
+    "soonTitle": "Próximo projeto",
+    "soonText": "Esta órbita está reservada. Novos projetos entram aqui assim que ficarem prontos.",
+    "repo": "VER NO GITHUB ↗",
+    "demo": "VER DEMO ↗",
+    "count": "PROJETO {n} DE {total}"
+  },
+  "flow": {
+    "eyebrow": "POR DENTRO",
+    "title": "Siga a",
+    "em": "requisição.",
+    "lead": "O caminho de um clique até o banco e de volta. Troque o projeto e veja por onde os dados passam.",
+    "tabs": [
+      "Iton",
+      "Mercante"
+    ],
+    "graphs": {
+      "Iton": {
+        "source": [
+          "CLIQUE",
+          "Navegador"
+        ],
+        "nodes": [
+          [
+            "API",
+            "Node.js + TypeScript"
+          ],
+          [
+            "Validação",
+            "tipos e regras"
+          ],
+          [
+            "Prisma",
+            "ORM tipado"
+          ],
+          [
+            "PostgreSQL",
+            "despesas, famílias"
+          ],
+          [
+            "Resposta",
+            "JSON para a tela"
+          ]
+        ],
+        "weights": [
+          5,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      "Mercante": {
+        "source": [
+          "PEDIDO",
+          "Cliente"
+        ],
+        "nodes": [
+          [
+            "API",
+            "Python"
+          ],
+          [
+            "Carrinho",
+            "itens e preços"
+          ],
+          [
+            "Estoque",
+            "produtos"
+          ],
+          [
+            "Pedidos",
+            "fechar_pedido()"
+          ],
+          [
+            "Resposta",
+            "200 OK"
+          ]
+        ],
+        "weights": [
+          5,
+          4,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "foot": [
+      "CADA PONTO É UM DADO EM MOVIMENTO",
+      "DIAGRAMA ILUSTRATIVO"
+    ]
+  },
+  "bugs": {
+    "eyebrow": "CEMITÉRIO DE BUGS",
+    "title": "Descanse em paz,",
+    "em": "undefined.",
+    "lead": "Todo dev já enfrentou estes doze. Clique numa lápide para enterrar o bug de vez.",
+    "counter": "ENTERRADOS",
+    "of": "DE 12",
+    "all": "Enterrar todos",
+    "done": "Cemitério cheio. Código limpo.",
+    "stones": [
+      [
+        "undefined",
+        "is not a function",
+        "TypeError"
+      ],
+      [
+        "CORS",
+        "bloqueado pelo navegador",
+        "rede"
+      ],
+      [
+        "N+1",
+        "uma query por item",
+        "banco"
+      ],
+      [
+        "off-by-one",
+        "i <= length",
+        "lógica"
+      ],
+      [
+        "merge",
+        "conflito em 14 arquivos",
+        "git"
+      ],
+      [
+        "await",
+        "esquecido no async",
+        "promessa"
+      ],
+      [
+        "timezone",
+        "o dia virou ontem",
+        "datas"
+      ],
+      [
+        "z-index",
+        "9999 e ainda atrás",
+        "css"
+      ],
+      [
+        "loop",
+        "infinito no useEffect",
+        "render"
+      ],
+      [
+        "migração",
+        "quebrou em produção",
+        "schema"
+      ],
+      [
+        "cache",
+        "mostrando o passado",
+        "estado"
+      ],
+      [
+        "0.1 + 0.2",
+        "≠ 0.3",
+        "float"
+      ]
+    ]
+  },
+  "orbit": {
+    "eyebrow": "TECNOLOGIAS",
+    "title": "Tudo gira em torno",
+    "em": "do código.",
+    "lead": "As ferramentas que uso, em órbita do mesmo centro. Arraste para girar.",
+    "drag": "ARRASTE PARA GIRAR",
+    "labels": [
+      "PROJETOS",
+      "TECNOLOGIAS",
+      "MESES DE ESTRADA"
+    ]
+  },
+  "contact": {
+    "eyebrow": "CONTATO",
+    "title": "Vamos",
+    "em": "conversar?",
+    "ring": "SINAL DE VOLTA ● RESPONDO RÁPIDO ● ",
+    "github": "GITHUB",
+    "linkedin": "LINKEDIN",
+    "card": "Ou copie o e-mail:",
+    "copied": "copiado ✓",
+    "checks": [
+      "Vaga, projeto ou ideia",
+      "Remoto ou presencial",
+      "Código aberto no GitHub"
+    ]
+  },
+  "footer": {
+    "tagline": "Código,",
+    "em": "gravidade",
+    "tail": "e interfaces.",
+    "cols": [
+      {
+        "title": "SITE",
+        "links": [
+          [
+            "Processo",
+            "#processo"
+          ],
+          [
+            "Stack",
+            "#stack"
+          ],
+          [
+            "Sobre",
+            "#sobre"
+          ],
+          [
+            "Projetos",
+            "#projetos"
+          ]
+        ]
+      },
+      {
+        "title": "CÓDIGO",
+        "links": [
+          [
+            "GitHub",
+            "github"
+          ],
+          [
+            "Iton",
+            "repo:iton"
+          ],
+          [
+            "Mercante",
+            "repo:mercante"
+          ]
+        ]
+      },
+      {
+        "title": "DIGA OI",
+        "links": [
+          [
+            "email",
+            "email"
+          ],
+          [
+            "LinkedIn",
+            "linkedin"
+          ]
+        ]
+      }
+    ],
+    "legal": "Feito à mão com HTML, CSS, JS e um pouco de gravidade.",
+    "credit": "Estrutura inspirada em Sunny Money (conceito da Higgsfield). Buraco negro gerado com IA."
+  },
+  "assets": {
+    "_comment": "Imagens geradas no Higgsfield (hospedadas no CDN do Higgsfield). Para usar cópias locais, salve em assets/gen/ e troque os caminhos aqui.",
+    "objects": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LtLnRdLh5yu6lsO3tB44Ik5ROq/0bf79496-a274-4367-8df2-923820955ff1.webp",
+    "chapter1": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LtLnRdLh5yu6lsO3tB44Ik5ROq/7c0186b3-6129-4aea-9a94-2dfe25433daa.webp",
+    "chapter4": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LtLnRdLh5yu6lsO3tB44Ik5ROq/ce08a682-7a0f-41e6-991e-ec8d5161c4ea.webp"
+  }
+}

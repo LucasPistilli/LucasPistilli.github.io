@@ -1,0 +1,27 @@
+{
+  "_comment": "Para adicionar um projeto novo: copie um objeto, mude o id, coloque a capa em assets/projects/ e preencha os campos. O primeiro com featured=true vira o destaque central da constelação.",
+  "projects": [
+    {
+      "id": "iton",
+      "title": "Iton",
+      "subtitle": "Sistema de despesas familiar",
+      "description": "Projeto completo de controle de despesas familiar, do banco de dados à interface.",
+      "tags": ["TypeScript", "Node.js", "PostgreSQL", "Prisma"],
+      "cover": "assets/projects/capa-itonproject.png",
+      "repo": "https://github.com/LucasPistilli/ItonProject",
+      "demo": null,
+      "featured": true
+    },
+    {
+      "id": "mercante",
+      "title": "Mercante",
+      "subtitle": "Backend de marketplace",
+      "description": "Backend de um pequeno marketplace, desenvolvido quase 100% em Python.",
+      "tags": ["Python", "Backend", "API"],
+      "cover": "assets/projects/capa-mercante.png",
+      "repo": "https://github.com/LucasPistilli/Mercante",
+      "demo": null,
+      "featured": false
+    }
+  ]
+}

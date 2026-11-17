@@ -1,0 +1,147 @@
+{
+  "_comment": "Todo texto do site vem daqui. value \"auto\" em stats = calculado (projetos de projects.json, tecnologias únicas da stack). Campos null ficam ocultos no site.",
+  "name": "Lucas Neres Pistilli",
+  "shortName": "Lucas Pistilli",
+  "initials": "LP",
+  "role": "Desenvolvedor Full-Stack",
+  "tagline": "Código, gravidade e interfaces interativas.",
+  "heroText": "Explorando os limites do desenvolvimento web e da performance.",
+  "cta": "ENTRAR NO BURACO",
+  "scrollHint": "SCROLL",
+  "transitionText": "Dentro do código…",
+  "nav": [
+    {
+      "label": "Sobre",
+      "target": "sobre"
+    },
+    {
+      "label": "Projetos",
+      "target": "projetos"
+    },
+    {
+      "label": "Stack",
+      "target": "stack"
+    },
+    {
+      "label": "Contato",
+      "target": "contato"
+    }
+  ],
+  "about": {
+    "title": "Sobre mim",
+    "text": "Sou Lucas Neres Pistilli, desenvolvedor criativo e persistente. Gosto de transformar ideias em interfaces vivas e de encarar problemas difíceis até eles fazerem sentido. Estou sempre em busca de novos desafios na área, onde possa aprender, experimentar e construir algo que deixe marca.",
+    "avatarAlt": "Avatar de Lucas Neres Pistilli",
+    "orbit": [
+      {
+        "label": "JS",
+        "name": "JavaScript"
+      },
+      {
+        "label": "TS",
+        "name": "TypeScript"
+      },
+      {
+        "label": "PY",
+        "name": "Python"
+      },
+      {
+        "label": "HTML",
+        "name": "HTML"
+      },
+      {
+        "label": "CSS",
+        "name": "CSS"
+      },
+      {
+        "label": "PG",
+        "name": "PostgreSQL"
+      }
+    ]
+  },
+  "stats": [
+    {
+      "label": "Projetos",
+      "value": "auto",
+      "suffix": ""
+    },
+    {
+      "label": "Meses",
+      "value": 3,
+      "suffix": ""
+    },
+    {
+      "label": "Tecnologias",
+      "value": "auto",
+      "suffix": ""
+    }
+  ],
+  "projectsSection": {
+    "title": "Projetos",
+    "intro": "Cada projeto é um corpo em órbita. Escolha um para trazê-lo ao centro.",
+    "caseCta": "VER CASE →",
+    "demoCta": "DEMO ↗",
+    "coverAlt": "Capa do projeto {title}",
+    "previewCta": "ABRIR",
+    "hint": "Clique num planeta ou use ← →",
+    "hint3d": "Arraste para girar a órbita · clique num planeta ou use ← →",
+    "repoCta": "VER REPOSITÓRIO →",
+    "counter": "PROJETO {n} / {total}",
+    "soonLabel": "EM BREVE",
+    "soonTitle": "Em breve",
+    "soonText": "Esta órbita está reservada para o próximo projeto. Novos corpos entram no sistema assim que ficarem prontos."
+  },
+  "stackSection": {
+    "title": "Stack",
+    "intro": "O que já uso no dia a dia e continuo aprofundando."
+  },
+  "stack": {
+    "Front-end": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "Back-end": [
+      "TypeScript",
+      "Node.js",
+      "Python"
+    ],
+    "Banco de dados": [
+      "PostgreSQL",
+      "Prisma"
+    ],
+    "Ferramentas": [
+      "Git",
+      "GitHub"
+    ]
+  },
+  "contactSection": {
+    "title": "Vamos conversar?",
+    "text": "Tem uma vaga, um projeto ou uma ideia em que eu possa aprender e contribuir? Me manda uma mensagem.",
+    "emailCta": "ENVIAR E-MAIL",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "submit": "ENVIAR",
+      "subject": "Contato pelo portfólio",
+      "note": "O envio abre seu aplicativo de e-mail com a mensagem pronta.",
+      "sent": "Abrimos seu aplicativo de e-mail com a mensagem pronta. Se nada aconteceu, escreva direto para"
+    }
+  },
+  "contact": {
+    "email": "lucasnpt0@gmail.com",
+    "github": "https://github.com/LucasPistilli",
+    "linkedin": "https://www.linkedin.com/in/lucas-neres-pistilli-aa8b42362/",
+    "instagram": null
+  },
+  "footer": "Feito à mão com HTML, CSS, JS e um pouco de gravidade.",
+  "a11y": {
+    "newTab": "(abre em nova aba)"
+  },
+  "kickers": {
+    "about": "02 · do outro lado",
+    "projects": "03 · constelação",
+    "stack": "04 · matéria-prima",
+    "contact": "05 · sinal de volta"
+  }
+}
